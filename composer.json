@@ -4,7 +4,10 @@
     "description": "The Laravel Framework.",
     "keywords": [
         "framework",
-        "laravel"
+        "laravel",
+        "jetstream",
+        "livewire",
+        "datatables"
     ],
     "license": "MIT",
     "require": {
