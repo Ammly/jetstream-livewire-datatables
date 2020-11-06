@@ -46,7 +46,7 @@ class Form extends Component
     /**
      * Save Post.
      *
-     * @return \Illuminate\View\View
+     * @return void
      */
     public function savePost()
     {
@@ -57,6 +57,8 @@ class Form extends Component
         $post = new Post();
         $post->name = $this->name;
         $post->save();
+
+        $this->name = '';
 
         $this->emit('saved');
 
