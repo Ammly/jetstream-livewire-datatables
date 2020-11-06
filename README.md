@@ -12,11 +12,9 @@ Testing [MedicOneSystems Livewire Datatables](https://github.com/MedicOneSystems
 
 Login with
 
-    ```
     Username:  dev@example.com
     password:  secret
 
-    ```
 
 # Screenshots
 
