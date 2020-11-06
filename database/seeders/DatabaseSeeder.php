@@ -14,10 +14,11 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         \App\Models\User::factory()->create();
+
         foreach (\App\Models\User::all() as $user) {
             $user->ownedTeams()->save(\App\Models\Team::forceCreate([
                 'user_id' => $user->id,
-                'name' => 'VAS Team',
+                'name' => 'Dev Team',
                 'personal_team' => true,
             ]));
         }

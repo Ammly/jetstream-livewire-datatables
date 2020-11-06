@@ -23,8 +23,8 @@ class UserFactory extends Factory
     public function definition()
     {
         return [
-            'name' => 'VAS Dev',
-            'email' => 'vasdev@safaricom.co.ke',
+            'name' => 'Dev',
+            'email' => 'dev@example.com',
             'email_verified_at' => now(),
             'password' => \bcrypt('secret'),
             'remember_token' => Str::random(10),
