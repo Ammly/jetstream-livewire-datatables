@@ -3,14 +3,9 @@
 namespace App\Http\Livewire;
 
 use App\Models\Post;
-use Illuminate\Support\Str;
-use Illuminate\Support\Carbon;
-use Illuminate\Support\Facades\DB;
 use Mediconesystems\LivewireDatatables\Column;
 use Mediconesystems\LivewireDatatables\DateColumn;
-use Mediconesystems\LivewireDatatables\TimeColumn;
 use Mediconesystems\LivewireDatatables\NumberColumn;
-use Mediconesystems\LivewireDatatables\BooleanColumn;
 use Mediconesystems\LivewireDatatables\Http\Livewire\LivewireDatatable;
 
 class PostDatatable extends LivewireDatatable
