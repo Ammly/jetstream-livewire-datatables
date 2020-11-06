@@ -7,6 +7,12 @@
     <!-- Create post modal -->
     <x-jet-confirmation-modal wire:model="confirmingPostCreation" maxWidth="2xl">
 
+        <x-slot name="icon">
+            <svg class="h-6 w-6 text-black-600" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+            </svg>
+        </x-slot>
+
         <x-slot name="title">
             Create Post
         </x-slot>
